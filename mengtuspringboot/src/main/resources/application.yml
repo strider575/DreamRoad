@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://47.115.215.31:3306/mengtuDB
+    username: mengtuDB_user
+    password: 5pDwuYYsC7nnuU
+
+mybatis-plus:
+  mapper-locations: classpath*:top/mengtu/wxspringboot/mapper/xml/**.xml
+  mapUnderscoreToCamelCase: false
+  map-underscore-to-camel-case: false
+weixin:
+  jscode2sessionUrl: https://api.weixin.qq.com/sns/jscode2session
+  appid: wx05f98e54053c005f
+  secret: cd78c16975a965cf74ea1527f9bd7078
+

@@ -1,0 +1,10 @@
+<!-- UserMapper.xml -->
+<mapper namespace="top.mengtu.wxspringboot.mapper.SleepRecordMapper">
+
+    <insert id="insertSleepRecord" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO sleep_records(belong_day) VALUES (#{belong_day})
+    </insert>
+
+</mapper>
+
+
